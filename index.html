@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css">
+<script src="./script.js" defer></script>
+</head>
+<body>
+    <div class="question-box">
+        <h1 class="question-text">
+            Who is the main character in Hollow Knight
+        </h1>
+        <img src="./images/The_Knight.webp" alt="" class="question-img">
+        <div class="answers">
+            <button id="a1" class="answer" onclick="correct(this)">The knight</button>
+            <button id="a2" class="answer"onclick="incorrect(this)">Hornet</button>
+            <button id="a3" class="answer"onclick="incorrect(this)">Elderbug</button>
+            <button id="a4" class="answer"onclick="incorrect(this)">The Hollow knight</button>
+        </div>
+    </div>
+    <div class="question-box">
+        <h1 class="question-text">
+            Which boss is located in the fog canyon
+        </h1>
+        <img src="./images/uumuu.webp" alt="" class="question-img">
+        <div class="answers">
+            <button id="a1" class="answer" onclick="incorrect(this)">Hive Knight</button>
+            <button id="a2" class="answer"onclick="correct(this)">Uumuu</button>
+            <button id="a3" class="answer"onclick="incorrect(this)">The Collecter</button>
+            <button id="a4" class="answer"onclick="incorrect(this)">Godtamer</button>
+        </div>
+    </div>
+    <div class="question-box">
+        <h1 class="question-text">
+            Who is the ruler of Hallownest
+        </h1>
+        <img src="./images/Pale-King.webp" alt="" class="question-img">
+        <div class="answers">
+            <button id="a1" class="answer" onclick="incorrect(this)">Grey Prince Zote</button>
+            <button id="a2" class="answer"onclick="incorrect(this)">The Knight</button>
+            <button id="a3" class="answer"onclick="incorrect(this)">Hornet</button>
+            <button id="a4" class="answer"onclick="correct(this)"> The pale king</button>
+        </div>
+    </div>
+    <div class="question-box">
+        <h1 class="question-text">
+            Who is the (true) Final boss
+        </h1>
+        <img src="./images/The_Knight.webp" alt="" class="question-img">
+        <div class="answers">
+            <button id="a1" class="answer" onclick="incorrect(this)">Hive knight</button>
+            <button id="a2" class="answer"onclick="incorrect(this)">Monomon</button>
+            <button id="a3" class="answer"onclick="correct(this)">Absolute radiance</button>
+            <button id="a4" class="answer"onclick="incorrect(this)">Quirrel</button>
+        </div>
+    </div>
+    <div class="submit-box">
+        <button class="submit" onclick="calculateScore(this)">Submit</button>
+</div>
+</body>
+</html>
